@@ -1,6 +1,7 @@
 # nim-problem
 problem with speed to exclude equals using hashset
 
+```
 # nim c -d:danger -d:release codeseq.nim
 lowbits.txt -> 0.2678647041320801
 original length: 400000
@@ -23,3 +24,4 @@ final length without repeated: 398721
 highbits.txt -> 98.11659216880798
 original length: 400000
 final length without repeated: 398631
+```
