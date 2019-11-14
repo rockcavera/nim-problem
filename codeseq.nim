@@ -26,7 +26,7 @@ proc processFile(fileName: string) =
     var a = 0'u64
 
     for i in split(read):
-      setBit(a, uint64(parseUInt(i)) - 1)
+      setBit(a, parseInt(i) - 1)
 
     add(smatriz64, a)
 
@@ -39,8 +39,8 @@ proc processFile(fileName: string) =
 
   let eTime = epochTime()
   
-  echo fileName, " -> ", eTime - iTime, "\noriginal length: ", len(smatriz64), "\nfinal length without repeated: ", len(ssmatriz64)
+  echo fileName, "\nduration: ", eTime - iTime, "\noriginal length: ", len(smatriz64), "\nfinal length without repeated: ", len(ssmatriz64)
 
 processFile(fileName1)
-echo "\n\n"
+echo "\n"
 processFile(fileName2)
