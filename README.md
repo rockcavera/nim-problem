@@ -3,6 +3,8 @@ Problem with speed to exclude equals using hashset. The higher the bit on (most 
 
 The numbers in the .txt files were randomly generated. In the high files only the most significant half of the bits were used. In low files only the least significant half of the bits were used.
 
+Related issues: [11764](https://github.com/nim-lang/Nim/issues/11764 "11764") [11330](https://github.com/nim-lang/Nim/issues/11330)
+
 ```
 # nim c -d:danger -d:release codesequ64
 lowu64.txt
