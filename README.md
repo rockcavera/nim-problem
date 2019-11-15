@@ -1,5 +1,7 @@
 # nim-problem
-problem with speed to exclude equals using hashset
+Problem with speed to exclude equals using hashset. The higher the bit on (most significant bit), the higher the number, even using the same type, the longer the sets package runtime (HashSet) takes.
+
+The numbers in the .txt files were randomly generated. In the high files only the most significant half of the bits were used. In low files only the least significant half of the bits were used.
 
 ```
 # nim c -d:danger -d:release codesequ64
