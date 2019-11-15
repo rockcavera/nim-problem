@@ -10,7 +10,7 @@ Use sets: codesetsX.nim
 Use tables: codetablesX.nim
 
 Related issues: [11764](https://github.com/nim-lang/Nim/issues/11764 "11764") [11330](https://github.com/nim-lang/Nim/issues/11330)
-
+# uint64
 ```
 # nim c -d:danger -d:release codesequ64
 lowu64.txt
@@ -51,10 +51,10 @@ highu64.txt
 duration: 134.5316565036774
 original length: 400000
 final length without repeated: 398691
+```
 
-
-
-
+# uint32
+```
 # nim c -d:danger -d:release codesequ32
 lowu32.txt
 duration: 0.08496189117431641
