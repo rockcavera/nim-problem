@@ -95,3 +95,30 @@ duration: 0.7725355625152588
 original length: 400000
 final length without repeated: 53770
 ```
+
+# Perl implementation
+```
+# perl hash.pl
+lowu64.txt
+duration: 1.21330690383911
+original length: 400000
+final length without repeated: 398658
+
+
+highu64.txt
+duration: 1.12243294715881
+original length: 400000
+final length without repeated: 398691
+
+
+lowu32.txt
+duration: 1.04555296897888
+original length: 400000
+final length without repeated: 53772
+
+
+highu32.txt
+duration: 1.07326102256775
+original length: 400000
+final length without repeated: 53770
+```
