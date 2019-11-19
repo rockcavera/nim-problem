@@ -123,3 +123,27 @@ duration: 1.07326102256775
 original length: 400000
 final length without repeated: 53770
 ```
+
+# C# implementation
+```
+# codehashset
+lowu64.txt
+duration: 0,151852100
+original length: 400000
+final length without repeated: 398658
+
+highu64.txt
+duration: 0,201863100
+original length: 400000
+final length without repeated: 398691
+
+lowu32.txt
+duration: 0,066980700
+original length: 400000
+final length without repeated: 53772
+
+highu32.txt
+duration: 0,094961900
+original length: 400000
+final length without repeated: 53770
+```
