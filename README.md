@@ -5,7 +5,7 @@ The numbers in the .txt files were randomly generated. In the high files only th
 
 I created an implementation with seqs and sort to exclude repeated entries just to compare the runtime.
 
-Related issues: [11764](https://github.com/nim-lang/Nim/issues/11764 "11764") [11330](https://github.com/nim-lang/Nim/issues/11330)
+Related issues: [11764](https://github.com/nim-lang/Nim/issues/11764 "11764")
 
 * Use seqs and sort: codeseqX.nim
 * Use sets: codesetsX.nim
