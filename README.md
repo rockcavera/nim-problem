@@ -147,3 +147,30 @@ duration: 0,094961900
 original length: 400000
 final length without repeated: 53770
 ```
+
+# mIRC Scripting implementation
+```
+# /testhashtable lowu64.txt
+lowu64.txt
+duration: 10.203
+original length: 400000
+final length without repeated: 398658
+
+# /testhashtable highu64.txt
+highu64.txt
+duration: 10.156
+original length: 400000
+final length without repeated: 398691
+
+# /testhashtable lowu32.txt
+lowu32.txt
+duration: 9.25
+original length: 400000
+final length without repeated: 53772
+
+# /testhashtable highu32.txt
+highu32.txt
+duration: 9.5
+original length: 400000
+final length without repeated: 53770
+```
