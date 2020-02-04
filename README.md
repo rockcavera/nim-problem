@@ -15,13 +15,13 @@ Related issues: [11764](https://github.com/nim-lang/Nim/issues/11764 "11764")
 ```
 # nim c -d:danger -d:release codesequ64
 lowu64.txt
-duration: 0.09696197509765625
+duration: 0.0969541072845459
 original length: 400000
 final length without repeated: 398658
 
 
 highu64.txt
-duration: 0.1199495792388916
+duration: 0.1179137229919434
 original length: 400000
 final length without repeated: 398691
 
@@ -29,13 +29,13 @@ final length without repeated: 398691
 
 # nim c -d:danger -d:release codesetsu64
 lowu64.txt
-duration: 0.3608067035675049
+duration: 0.3348076343536377
 original length: 400000
 final length without repeated: 398658
 
 
 highu64.txt
-duration: 88.57006502151489
+duration: 91.79120874404907
 original length: 400000
 final length without repeated: 398691
 
@@ -43,13 +43,13 @@ final length without repeated: 398691
 
 # nim c -d:danger -d:release codetablesu64
 lowu64.txt
-duration: 0.3748018741607666
+duration: 0.3627917766571045
 original length: 400000
 final length without repeated: 398658
 
 
 highu64.txt
-duration: 134.5316565036774
+duration: 135.1472928524017
 original length: 400000
 final length without repeated: 398691
 ```
@@ -58,13 +58,13 @@ final length without repeated: 398691
 ```
 # nim c -d:danger -d:release codesequ32
 lowu32.txt
-duration: 0.08496189117431641
+duration: 0.08296394348144531
 original length: 400000
 final length without repeated: 53772
 
 
 highu32.txt
-duration: 0.09392809867858887
+duration: 0.09292984008789063
 original length: 400000
 final length without repeated: 53770
 
@@ -72,13 +72,13 @@ final length without repeated: 53770
 
 # nim c -d:danger -d:release codesetsu32
 lowu32.txt
-duration: 0.0619814395904541
+duration: 0.05197000503540039
 original length: 400000
 final length without repeated: 53772
 
 
 highu32.txt
-duration: 0.8734824657440186
+duration: 0.8884711265563965
 original length: 400000
 final length without repeated: 53770
 
@@ -86,13 +86,13 @@ final length without repeated: 53770
 
 # nim c -d:danger -d:release codetablesu32
 lowu32.txt
-duration: 0.06098222732543945
+duration: 0.05197286605834961
 original length: 400000
 final length without repeated: 53772
 
 
 highu32.txt
-duration: 0.7725355625152588
+duration: 0.8474822044372559
 original length: 400000
 final length without repeated: 53770
 ```
