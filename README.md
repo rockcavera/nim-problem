@@ -15,13 +15,13 @@ Related issues: [11764](https://github.com/nim-lang/Nim/issues/11764 "11764")
 ```
 # nim c -d:danger -d:release codesequ64
 lowu64.txt
-duration: 0.0969541072845459
+duration: 0.1285927295684815
 original length: 400000
 final length without repeated: 398658
 
 
 highu64.txt
-duration: 0.1179137229919434
+duration: 0.1407973766326904
 original length: 400000
 final length without repeated: 398691
 
@@ -29,13 +29,13 @@ final length without repeated: 398691
 
 # nim c -d:danger -d:release codesetsu64
 lowu64.txt
-duration: 0.3348076343536377
+duration: 0.3487985134124756
 original length: 400000
 final length without repeated: 398658
 
 
 highu64.txt
-duration: 91.79120874404907
+duration: 89.49944043159485
 original length: 400000
 final length without repeated: 398691
 
@@ -43,13 +43,13 @@ final length without repeated: 398691
 
 # nim c -d:danger -d:release codetablesu64
 lowu64.txt
-duration: 0.3627917766571045
+duration: 0.3797988891601563
 original length: 400000
 final length without repeated: 398658
 
 
 highu64.txt
-duration: 135.1472928524017
+duration: 132.3747346401215
 original length: 400000
 final length without repeated: 398691
 ```
@@ -72,13 +72,13 @@ final length without repeated: 53770
 
 # nim c -d:danger -d:release codesetsu32
 lowu32.txt
-duration: 0.05197000503540039
+duration: 0.05898594856262207
 original length: 400000
 final length without repeated: 53772
 
 
 highu32.txt
-duration: 0.8884711265563965
+duration: 0.8635203838348389
 original length: 400000
 final length without repeated: 53770
 
@@ -86,13 +86,13 @@ final length without repeated: 53770
 
 # nim c -d:danger -d:release codetablesu32
 lowu32.txt
-duration: 0.05197286605834961
+duration: 0.05698442459106445
 original length: 400000
 final length without repeated: 53772
 
 
 highu32.txt
-duration: 0.8474822044372559
+duration: 0.8005111217498779
 original length: 400000
 final length without repeated: 53770
 ```
