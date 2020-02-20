@@ -1,4 +1,6 @@
 # nim-problem
+Problem fixed on [13418](https://github.com/nim-lang/Nim/pull/13418)
+
 Problem with speed to exclude equals using sets (HashSet) and tables (Tables). The higher the bit on (most significant bit), the higher the number, even using the same type, the longer the package runtime.
 
 The numbers in the .txt files were randomly generated. In the high files only the most significant half of the bits were used. In low files only the least significant half of the bits were used.
